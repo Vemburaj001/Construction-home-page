@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+   background-color:black;
+   position:fixed;
+   width: 100%;
+   top: 0px;
+   left: 0;
+   z-index: 1;
+   font-family:italic;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Lemon", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    
+   
+}
+
+a:hover{
+    color: yellow;
+}
+
+img.construction{
+    position: relative;
+    margin-left: -30px;
+}
+
+.title{
+    margin-left: -80px;
+}
+
+h2.BuildRise{
+    color: white;
+}
+
+p.BuildRise1{
+    color: white;
+}
+
+.home_page{
+    margin-top: 40px;
+    font-weight:0;
+    font-style: italic;
+  
+}
+
+.home_title{
+    position: absolute;
+    margin-top: -600px;
+    margin-left: 90px;
+    font-size: 25px;
+    color: white;
+}
+
+video{
+    margin-left: -75px;
+    margin-top: 50px;
+    border-radius: 15px;
+    opacity: 0.9;
+   
+}
+
+.home_page .worker{
+    position: absolute;
+    margin-top: -410px;
+    margin-left: 1000px;
+    border-radius: 10px;
+    opacity:0.7;
+}
+
+.home_page button{
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 600px;
+    border: 4px dotted blue;
+    background-color: aqua;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+.home_page button:hover{
+    background-color: rgb(0, 255, 128);
+}
+
+.logos{
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 10px;
+}
+
+.logos>i{
+    margin-left: 50px;
+    color: white;
+}
+
+.logos span{
+    color: black;
+    font-size: 25px;
+    font-family: italic;
+}
